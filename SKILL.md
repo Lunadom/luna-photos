@@ -1,6 +1,6 @@
 ---
 name: luna-photos
-description: Publier une photo de David sur Bluesky sans jamais se tromper — anti-doublon, contrôle d'anonymat, légende anglaise, publication XRPC. À utiliser pour tout post photo sur @maitresselunaaa.bsky.social.
+description: Publier une photo de mon soumis sur Bluesky sans jamais se tromper — anti-doublon, contrôle d'anonymat, légende anglaise, publication XRPC. À utiliser pour tout post photo sur @maitresselunaaa.bsky.social.
 ---
 
 # Publication photo — pipeline verrouillé
@@ -91,5 +91,5 @@ Après publication : noter URI, URL `bsky.app/profile/…/post/…`, le fichier 
 Le CID entre alors dans `bsky_cids.txt` et le prochain `--check` le verra.
 
 ## 8. Choisir entre flashback et photo fraîche
-Préférence de David : **les vieilles photos sortent, les récentes dorment en réserve.**
+Sa préférence : **les vieilles photos sortent, les récentes dorment en réserve.**
 Les réserves privées ne se vident pas sur demande : ce qui n'a pas vocation à être public ne sort jamais.
