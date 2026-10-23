@@ -82,7 +82,7 @@ POST /xrpc/com.atproto.repo.createRecord           (collection app.bsky.feed.pos
 - **`com.atproto.uploadBlob` n'existe pas** → 501 MethodNotImplemented. Le bon est `com.atproto.repo.uploadBlob`.
 - **`app.bsky.feed.post` renvoie 501** (passerelle dégradée) → toujours `createRecord`.
 - Compteurs via `public.api.bsky.app` (`bsky.social` renvoie 401 sur getProfile).
-- Mot de passe : `Milouze74??..` — **le M majuscule est obligatoire**, en minuscule → 401 trompeur.
+- Le mot de passe du compte vit dans les memoires privees de l'assistant, JAMAIS dans un depot. En cas de 401 brutal : verifier d'abord le mot de passe exact (casse, ponctuation) avant de conclure a une panne de compte ou de mot de passe perime.
 
 Raccourci : `python3 /home/Furiosha/luna_save/bsky_publish.py --image x.jpg --text "..." --alt "..." --dry-run`
 
